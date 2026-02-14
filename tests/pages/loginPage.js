@@ -9,7 +9,7 @@ class LoginPage {
   }
 
   async navigate() {
-    await this.page.goto("https://adactinhotelapp.com/");
+    await this.page.goto("https://adactinhotelapp.com/");//navi
   }
 
   async loginMethod(UN, Pwd) {
