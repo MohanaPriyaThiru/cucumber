@@ -5,7 +5,7 @@ class LoginPage {
     this.username = page.locator("#username");
     this.password = page.locator("#password");//locator
     this.submitBtn = page.locator('[name="login"]');
-    //this.newReg = page.locator('[class="login_register"]');//no need 
+    //this.newReg = page.locator('[class="login_register"]');//no need of this line
   }
 
   async navigate() {
