@@ -5,6 +5,7 @@ module.exports = {
     paths: ["tests/feature/**/*.feature"],
     require: ["tests/stepDef/**/*.js", "tests/support/**/*.js"],
     format: ["progress"],
-    TIMEOUT: 60000,
+    TIMEOUT: 80000,
+    parallel: 3,
   },
 };

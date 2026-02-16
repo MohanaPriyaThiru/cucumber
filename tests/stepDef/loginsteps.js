@@ -18,3 +18,11 @@ When("user enter the click button", async function () {
 Then("user navigates to the Login page", async function () {
   await logobj.assertNavigate("pass");
 });
+
+When(
+  "user enter the userName {string} and Password {string} in the password field",
+  { timeout: 80000 },
+  async function (string, string2) {
+    await logobj.loginMethod(string, string2);
+  },
+);
