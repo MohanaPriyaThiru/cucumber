@@ -3,7 +3,7 @@ class LoginPage {
   constructor(page) {
     this.page = page;
     this.username = page.locator("#username");
-    this.password = page.locator("#password");
+    this.password = page.locator("#password");//locator
     this.submitBtn = page.locator('[name="login"]');
     //this.newReg = page.locator('[class="login_register"]');
   }
