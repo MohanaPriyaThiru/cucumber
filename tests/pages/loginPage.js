@@ -18,6 +18,7 @@ class LoginPage {
   }
   async click() {
     await this.submitBtn.click();
+    console.log("clicked the login button")
   }
   async assertNavigate(exp) { //new method
     await this.page;
