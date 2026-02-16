@@ -19,7 +19,7 @@ class LoginPage {
   async click() {
     await this.submitBtn.click();
   }
-  async assertNavigate(exp) {
+  async assertNavigate(exp) { //new method
     await this.page;
     if (exp === "pass") {
       await expect(this.page).toHaveTitle("Adactin.com - Search Hotel");
